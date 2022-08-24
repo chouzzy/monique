@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Grid, GridItem, Heading, Text, VStack } from "@chakra-ui/react";
+import { Box, Container, Flex, Grid, GridItem, Heading, Image, Text, VStack } from "@chakra-ui/react";
 
 export function Content() {
    const title = 'O que é?'
@@ -25,7 +25,8 @@ export function Content() {
          </Flex>
          
          <Flex justifyContent='center'>
-         <iframe width="90%" height="315" src="https://www.youtube.com/embed/O8VY2p8qi9E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+         {/* <iframe width="90%" height="315" src="https://www.youtube.com/embed/O8VY2p8qi9E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe> */}
+         <Image src='static/img/foto-capa.png' maxW='360px' border='5px solid white' borderRadius='full' alt='Foto de capa' />
          </Flex>
       </Grid>
    )   
