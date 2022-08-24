@@ -13,7 +13,7 @@ export function ModalVideo(teamProps) {
       <>
          <Grid w='100%' justifyContent='center'>
             <GridItem mx='auto'>
-            <Image src='static/img/foto-footer.png' maxW='60vw' border='5px solid white' alt='Foto de capa' />
+               <Image src='static/img/foto-footer.png' maxW='60vw' border='5px solid white' alt='Foto de capa' />
             </GridItem>
 
             {/* <GridItem mx='auto'>
