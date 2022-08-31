@@ -8,7 +8,7 @@ export function Container_4() {
       <Container id='#vantagens' maxW='100vw' m='0' p='0' bgGradient={['linear(to-br, white 15%, white 90%)']}>
       <Flex textAlign='center' h={['400px','400px','400px','200px']} bg='pastelLight' px={8} alignItems='center'>
          <VStack mx='auto'>
-         <Heading  fontSize='2rem' color='white' fontFamily='Poiret One' fontWeight='600'>
+         <Heading  fontSize={['1.4rem','1.8rem','2rem','2rem']} color='white' fontFamily='Poiret One' fontWeight='600'>
                {splitter}
          </Heading>
          </VStack>
