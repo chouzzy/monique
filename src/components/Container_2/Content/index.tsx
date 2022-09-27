@@ -3,9 +3,9 @@ import { Box, Container, Flex, Grid, GridItem, Heading, Image, Text, VStack } fr
 export function Content() {
    const title = 'O que é?'
    const description =<> 
-   <Text display='inline'> Uma mentoria que entregará um plano de comunicação digital com o passo a passo de como criar </Text>
+   <Text display='inline'> Uma mentoria que entregará um plano de comunicação digital <b style={{color:'#90c9ef'}}> MODELO </b> para seu negócio com o passo a passo de como criar </Text>
    <Text display='inline'  color='#90c9ef' fontWeight='600'>CONTEUDOS ESTRATÉGICOS! <br></br> <br></br></Text> 
-   <Text display='inline'> Esqueça postagens aleatórias sem uma ordem lógica de raciocínio. Refine seus resultados dentro do digital! Afinal, a necessidade básica hoje de um negócio é estar dentro das mídias digitais, então, é preciso dar a devida atenção.</Text>
+   <Text display='inline'> Ajudará a refinar seus resultados! <br></br><br></br> Afinal, a necessidade básica hoje de um negócio  é estar dentro das mídias digitais</Text>
 
    </>
    return (

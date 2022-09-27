@@ -7,9 +7,10 @@ import { Footer } from "./Footer";
 export function Container_5() { 
 
    const videoModal = useDisclosure()
-   const title = <>Com quem você fará a mentoria? <br></br> <br></br>Monique Balsani, experiência há mais de 10 anos na área comercial</>
-   const subTitle = <> <Text display='inline'> Trabalhando com vendas consultiva, ministrando treinamentos para equipe de vendas, campanhas, gestão de equipe, planejamento estratégico comercial, condução de reuniões estratégicas comerciais e foco no desenvolvimento do potencial de pessoas <br></br> <br></br> Atualmente, cursando sua segunda formação como professora de Yoga. Estudo comprovado cientificamente que reflete em melhorias mentais, emocionais, foco, concentração, ética , estabilidade consequentemente melhorando clareza na comunicação como um todo, o que complementa todos os estudos e experiências de todos esses anos de trajetória.</Text>
-   <Text fontSize='1.5rem' textAlign='center' my={8}>Graduada em Marketing, especializações em comunicação, marketing digital, pessoal e estratégia de conteúdo.</Text>
+   const title = <>Com quem você fará a mentoria? <br></br></>
+   const subTitle = <> <Text display='inline'> <b> Monique Balsani</b>, com experiência há mais de 10 anos na área comercial, trabalhando com vendas consultiva, ministrando treinamentos para equipe de vendas, campanhas, gestão de equipe, planejamento estratégico comercial e foco no desenvolvimento do potencial de pessoas. <br></br> <br></br> Graduada em Marketing, mais de 100 hrs de especializações no digital: mentorias, consultoria, social media, lançamentos, marca pessoal, conexão de marca, gestão de projetos e técnicas de copy. <br></br> <br></br> 
+   Além de estar se formando como instrutora de Yoga, explorando o conhecimento do comportamento humano, com ideia de expandir o quanto a filosofia ajuda em todos os ambitos da vida, através de sua própria experiência.
+   </Text>
    </>
 
    return (

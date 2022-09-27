@@ -5,15 +5,17 @@ const splitter = '“Se as ideias, por melhores que sejam, não estiverem articu
 
 export function Container_4() {
    return (
-      <Container id='#vantagens' maxW='100vw' m='0' p='0' bgGradient={['linear(to-br, white 15%, white 90%)']}>
-      <Flex textAlign='center' h={['400px','400px','400px','200px']} bg='pastelLight' px={8} alignItems='center'>
+      <Container id='#vantagens' maxW='100vw' minH='70vh' m='0' p='0' 
+      bgImage={'static/img/sun.png'} bgPosition='bottom' bgSize='cover'
+      centerContent>
+      <Flex textAlign='center' h={['400px','400px','400px','200px']} bg='pastelLight' my='auto' px={8} alignItems='center'>
          <VStack mx='auto'>
          <Heading  fontSize={['1.4rem','1.8rem','2rem','2rem']} color='white' fontFamily='Poiret One' fontWeight='600'>
                {splitter}
          </Heading>
          </VStack>
       </Flex>
-         <Content/>
+         {/* <Content/> */}
       </Container>
    )   
 }
